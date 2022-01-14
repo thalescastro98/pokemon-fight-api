@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "3085f0e1-c2a2-43de-8330-dd432aa7f9ba",
+		"name": "pokemon-fight-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pokemon info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pokemon/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pokemon fight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pokemon/12/fight/123",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon",
+						"12",
+						"fight",
+						"123"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
