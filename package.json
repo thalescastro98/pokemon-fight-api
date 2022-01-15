@@ -1,8 +1,8 @@
 {
   "name": "pokemon-fight-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The purpose of this API is to list which pokemon moves are super effective against another pokemon (status moves are not considered)",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "start": "node dist/index.js",
